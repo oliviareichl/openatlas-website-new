@@ -1,0 +1,5 @@
+description: is a micro web framework, written in Python, with the ability to scale up to complex applications.
+image: /assets/images/software/flask.png
+license: BSD
+link: https://palletsprojects.com/p/flask/
+name: Flask

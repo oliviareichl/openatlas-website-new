@@ -1,0 +1,124 @@
+import { defineCollection, defineContentConfig, z, property } from "@nuxt/content";
+
+// currently not supported; will break the editor
+
+// const domainTags = [
+// 	"anthropology",
+// 	"archaeology",
+// 	"cultural-heritage",
+// 	"epigraphy",
+// 	"history",
+// 	"prosopography",
+// ] as const;
+
+// const statusTags = ["ongoing", "concluded", "presentation-site", "archive", "cooperation"] as const;
+
+export default defineContentConfig({
+	collections: {
+		pages: defineCollection({
+			type: "page",
+			source: {
+				include: "pages/*.md",
+			},
+			schema: z.object({
+				title: z.string(),
+				hero: z
+					.object({
+						title: z.string(),
+						subtitle: z.string().optional(),
+						buttonLinks: z
+							.array(
+								z.object({
+									title: z.string(),
+									link: z.string(),
+								}),
+							)
+							.optional(),
+						newsDate: z.string(),
+						currentVersion: z.string(),
+						images: z
+							.array(
+								z.object({
+									src: z.string(),
+									alt: z.string().optional(),
+								}),
+							)
+							.optional(),
+					})
+					.optional(),
+			}),
+		}),
+		team: defineCollection({
+			type: "data",
+			source: "team/team-members/*.yaml",
+			schema: z.object({
+				name: z.string(),
+				role: z.string(),
+				email: z.string().optional(),
+				image: z.string().optional(),
+				credit: z.string().optional(),
+				bio: property(z.string()).editor({ input: "textarea" }),
+				order: z.number().optional(),
+			}),
+		}),
+		support: defineCollection({
+			type: "data",
+			source: "team/support/*.yaml",
+			schema: z.object({
+				name: z.string(),
+				role: z.string(),
+				email: z.string().optional(),
+				image: z.string().optional(),
+				credit: z.string().optional(),
+				bio: z.string(),
+				order: z.number().optional(),
+			}),
+		}),
+		contributors: defineCollection({
+			type: "data",
+			source: "team/contributors/*.yaml",
+			schema: z.object({
+				contributors: z.array(
+					z.object({
+						name: z.string(),
+					}),
+				),
+			}),
+		}),
+		software: defineCollection({
+			type: "data",
+			source: "software/*.yaml",
+			schema: z.object({
+				name: z.string(),
+				description: z.string(),
+				image: z.string().optional(),
+				link: z.string(),
+				license: z.string(),
+			}),
+		}),
+		projects: defineCollection({
+			type: "data",
+			source: "projects/*.yaml",
+			schema: z.object({
+				title: z.string(),
+				description: property(z.string()).editor({ input: "textarea" }),
+				image: z.string(),
+				credit: z.string(),
+				yearStart: z.string(),
+				yearEnd: z.string().optional(),
+				presentationSite: z.string().optional(),
+				// currently enums / sinlge and multiple selects are not supported by nuxt studio must revisited
+				domainTags: z.array(z.string()),
+				statusTags: z.array(z.string()),
+				pi: z.string(),
+				logos: z
+					.array(
+						z.object({
+							imageSource: z.string(),
+						}),
+					)
+					.optional(),
+			}),
+		}),
+	},
+});

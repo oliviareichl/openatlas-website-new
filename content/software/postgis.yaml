@@ -1,0 +1,5 @@
+name: PostGIS
+description: is a spatial database extender for PostgreSQL and adds support for geographic objects.
+image: /assets/images/software/postgis.png
+link: https://postgis.net
+license: GPL 2 or later

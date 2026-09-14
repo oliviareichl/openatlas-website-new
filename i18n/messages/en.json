@@ -1,0 +1,88 @@
+{
+	"AppFooter": {
+		"links": {
+			"about": "About",
+			"cooperations": "Cooperations",
+			"team": "Team",
+			"events": "Events",
+			"publications": "Publications",
+			"work": "Work with us!",
+			"software": "Software",
+			"news": "News",
+			"mission": "Mission Statement",
+			"features": "Features",
+			"manual": "Manual",
+			"redmine": "Redmine",
+			"model": "Model",
+			"code": "Code",
+			"demo": "Demo",
+			"development": "Development Demo",
+			"imprint": "Imprint"
+		},
+		"navigation-secondary": "Secondary"
+	},
+	"AppHeader": {
+		"links": {
+			"about": "About",
+			"cooperations": "Cooperations",
+			"team": "Team",
+			"events": "Events",
+			"publications": "Publications",
+			"work": "Work with us!"
+		},
+		"navigation-main": "Main"
+	},
+	"ColorSchemeToggle": {
+		"change-color-scheme": "Change color scheme",
+		"color-schemes": {
+			"dark": "Dark",
+			"light": "Light",
+			"system": "System"
+		}
+	},
+	"DefaultLayout": {
+		"meta": {
+			"description": "ACDH App",
+			"title": "ACDH App",
+			"twitter": "{'@acdh_oeaw'}"
+		},
+		"skip-to-main-content": "Skip to main content"
+	},
+	"ErrorBoundary": {
+		"error": "Error"
+	},
+	"ErrorPage": {
+		"meta": {
+			"title": "Error"
+		},
+		"title": "Something went wrong!",
+		"try-again": "Try again"
+	},
+	"ImprintPage": {
+		"meta": {
+			"title": "Imprint"
+		},
+		"title": "Imprint"
+	},
+	"IndexPage": {
+		"meta": {
+			"title": "Home"
+		},
+		"title": "Home"
+	},
+	"LocaleSwitcher": {
+		"current-locale": "Current language: {locale}",
+		"switch-locale": "Switch language to {locale}"
+	},
+	"Manifest": {
+		"description": "ACDH App",
+		"name": "ACDH App",
+		"short-name": "ACDH App"
+	},
+	"NotFoundPage": {
+		"meta": {
+			"title": "Page not found"
+		},
+		"title": "Page not found"
+	}
+}

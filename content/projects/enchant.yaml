@@ -1,0 +1,20 @@
+title: ENCHANT
+credit: CC-BY-SA 4.0, Johannes Preiser-Kapeller
+description: The Entangled Charters of Anatolia (1200-1300) project (FWF P 36403-G), aims to provide a comparison based on a systematic survey of important artefacts of these efforts, i. e. the documents issued by the state chancelleries of the Byzantine “empires in exile” of Nicaea and Trebizond, Cilician Armenia and the Seljuk Sultanate. The project provides a digital catalogue, a corpus of those documents whose texts have been transmitted at least in significant parts, and a number of publications presenting a comparative analysis of these multifaceted acts of “world (re)ordering” after crisis.
+domainTags:
+  - history
+image: /assets/images/projects/enchant.png
+logos:
+  - imageSource: /assets/images/oeaw.png
+  - imageSource: /assets/images/fwf.png
+  - imageSource: /assets/images/imafo.png
+  - imageSource: /assets/images/uni_vienna.png
+  - imageSource: /assets/images/acdh.png
+pi: Johannes Preiser-Kapeller
+presentationSite: https://discover-plas.openatlas.eu/
+statusTags:
+  - ongoing
+  - cooperation
+  - presentation-site
+yearEnd: '2026'
+yearStart: '2023'

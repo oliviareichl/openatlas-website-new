@@ -1,0 +1,20 @@
+title: biTEM
+credit: CC-BY-SA 4.0, Jan Belik
+description: The Beyond the Item project - short for Beyond the Item - Biographies and Itineraries of Cultural Heritage Objects in Museums and beyond - aims to present well-known museum objects in a state-of-the-art web application that is freely accessible online. The objects and their biographies are vividly described and, in addition to images and texts, 3D models as digital twins, timelines, and story maps are made available.
+domainTags:
+  - archaeology
+  - history
+image: /assets/images/projects/bitem.png
+logos:
+  - imageSource: /assets/images/nhm.jpg
+  - imageSource: /assets/images/lbi.jpg
+  - imageSource: /assets/images/oeaw.png
+  - imageSource: /assets/images/acdh.png
+pi: Viola Winkler, Roland Filzwieser
+presentationSite: https://bitem.at/
+statusTags:
+  - concluded
+  - cooperation
+  - presentation-site
+yearEnd: '2025'
+yearStart: '2023'

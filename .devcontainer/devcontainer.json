@@ -1,0 +1,23 @@
+{
+	"name": "Nuxt",
+	"image": "ghcr.io/acdh-oeaw/devcontainer-frontend:24",
+	"runArgs": ["--add-host=host.docker.internal:host-gateway"],
+	"postCreateCommand": {
+		"init": "pnpm install && pnpm exec playwright install"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"bradlc.vscode-tailwindcss",
+				"editorconfig.editorconfig",
+				"lokalise.i18n-ally",
+				"mikestead.dotenv",
+				"ms-playwright.playwright",
+				"nuxt.mdc",
+				"oxc.oxc-vscode",
+				"stylelint.vscode-stylelint",
+				"vue.volar"
+			]
+		}
+	}
+}

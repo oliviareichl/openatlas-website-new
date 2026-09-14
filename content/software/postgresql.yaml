@@ -1,0 +1,5 @@
+name: PostgreSQL
+description: ' is a free and open source relational database management system.'
+link: https://www.postgresql.org/
+license: PostgreSQL License
+image: /assets/images/software/postgresql.jpeg

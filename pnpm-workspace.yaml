@@ -1,0 +1,17 @@
+allowBuilds:
+  '@intlify/vue-i18n-bridge': true
+  '@intlify/vue-router-bridge': true
+  '@parcel/watcher': true
+  better-sqlite3: true
+  esbuild: true
+  lefthook: true
+  sharp: true
+  unrs-resolver: false
+  vue-demi: true
+
+minimumReleaseAge: 1440
+
+overrides:
+  sharp: $sharp
+
+shellEmulator: true

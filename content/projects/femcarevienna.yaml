@@ -1,0 +1,21 @@
+title: FemCareVienna
+credit: CC-BY-SA 4.0, Jasmin Hangartner/ Novetus GmbH
+description: The FemCareVienna project (FWF individual grant P 36459-G) aims to elucidate the history of medical care for woman through an interdisciplinary study of the historical and bioarchaeological record pertaining to the Hospital of the Elisabethians in Vienna. Central to the project are the life histories of 390 patients from the 18th century whose skeletal human remains were excavated from the hospital cemetery.
+domainTags:
+  - history
+  - anthropology
+  - archaeology
+image: /assets/images/projects/femcare.jpg
+logos:
+  - imageSource: /assets/images/novetus.svg
+  - imageSource: /assets/images/oeaw.png
+  - imageSource: /assets/images/acdh.png
+  - imageSource: /assets/images/fwf.png
+pi: Michaela Binder
+presentationSite: https://discover-femcarevienna.openatlas.eu/
+statusTags:
+  - ongoing
+  - presentation-site
+  - cooperation
+yearEnd: '2026'
+yearStart: '2023'

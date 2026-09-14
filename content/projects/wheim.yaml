@@ -1,0 +1,19 @@
+title: WHEIM
+credit: CC-BY-SA 4.0, Renate Bornberg
+description: The World Heritage Elements Inventory Mapping project collects, analyses, and locates key attributes of World Heritage Sites, focusing on the Hallstatt–Dachstein/ Salzkammergut Cultural Landscape. This mapping improves safeguarding and monitoring of the region and can also be adopted by other World Heritage Sites.
+domainTags:
+  - cultural-heritage
+image: /assets/images/projects/wheim.png
+logos:
+  - imageSource: /assets/images/welterbe.png
+  - imageSource: /assets/images/TU_Wien.png
+  - imageSource: /assets/images/oeaw.png
+  - imageSource: /assets/images/acdh.png
+  - imageSource: /assets/images/BMWKMS.png
+pi: Bernd Paulowitz
+statusTags:
+  - ongoing
+  - cooperation
+yearEnd: ongoing
+yearStart: '2025'
+presentationSite: ''
