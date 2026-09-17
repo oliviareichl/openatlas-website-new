@@ -120,5 +120,14 @@ export default defineContentConfig({
 					.optional(),
 			}),
 		}),
+		news: defineCollection({
+			type: "page",
+			source: "news/**/*.md",
+			schema: z.object({
+				date: z.string(),
+				title: z.string(),
+				link: z.string().optional(),
+			}),
+		}),
 	},
 });

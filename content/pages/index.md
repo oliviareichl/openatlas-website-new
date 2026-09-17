@@ -11,8 +11,8 @@ hero:
       link: https://demo.openatlas.eu/
     - title: MANUAL
       link: https://manual.openatlas.eu/
-  newsDate: "2026-05-27"
-  currentVersion: "9.3.0"
+  newsDate: '2026-05-27'
+  currentVersion: 9.3.0
   images:
     - src: /assets/images/hero_image.jpg
       alt: Hero Image
@@ -32,6 +32,9 @@ OpenAtlas is not a stand-alone application but meant to be installed on a Linux 
 
 ::text-section
 ---
+shadow: false
+image: /assets/images/cooperation.png
+variant: dark
 buttons:
   - title: Contact Us
     link: mailto:openatlas@oeaw.ac.at
@@ -39,10 +42,7 @@ buttons:
   - title: More Information
     link: /work-with-us
     outline: true
-shadow: false
-image: /assets/images/cooperation.png
 imageSide: right
-variant: dark
 ---
 ## Interested in a cooperation?
 
@@ -51,10 +51,10 @@ Although OpenAtlas is freely available on [GitHub](https://github.com/craws/Open
 
 ::text-section
 ---
-image: /assets/images/openatlas-schema.png
-image-side: right
 shadow: true
+image: /assets/images/openatlas-schema.png
 variant: light
+image-side: right
 ---
 ## Model
 
@@ -70,10 +70,10 @@ The data [model](https://demo.openatlas.eu/overview/model) specifies the structu
 
 ::text-section
 ---
-image: /assets/images/map.jpg
-image-side: left
 shadow: true
+image: /assets/images/map.jpg
 variant: light
+image-side: left
 ---
 ## Interactive Map
 
