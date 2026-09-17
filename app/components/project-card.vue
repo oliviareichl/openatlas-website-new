@@ -68,25 +68,32 @@ const props = defineProps<{
 					</div>
 
 					<div class="flex flex-wrap gap-2 mt-6">
-						<div v-for="tag in project?.statusTags" :key="tag">
-							<UBadge
-								:class="[
-									'uppercase hover:opacity-90 transition',
-									selectedStatus.includes(tag) ? 'bg-gray-700' : 'bg-gray-400',
-								]"
-								size="lg"
-								>{{ tag }}</UBadge
-							>
+						<div
+							v-for="tag in project?.statusTags"
+							:key="tag"
+							type="button"
+							class="rounded-full border px-2.5 py-1 text-xs uppercase transition cursor-default"
+							:class="
+								selectedStatus.includes(tag)
+									? 'border-neutral-600 bg-neutral-600 text-white'
+									: 'border-neutral-500 text-neutral-600 hover:border-neutral-900 hover:text-neutral-900'
+							"
+						>
+							{{ tag }}
 						</div>
-						<div v-for="tag in project?.domainTags" :key="tag">
-							<UBadge
-								:class="[
-									'uppercase hover:opacity-90 transition',
-									selectedDomains.includes(tag) ? 'bg-gray-700' : 'bg-gray-400',
-								]"
-								size="lg"
-								>{{ tag }}</UBadge
-							>
+
+						<div
+							v-for="tag in project?.domainTags"
+							:key="tag"
+							type="button"
+							class="rounded-full border px-2.5 py-1 text-xs uppercase transition cursor-default"
+							:class="
+								selectedDomains.includes(tag)
+									? 'border-neutral-600 bg-neutral-600 text-white'
+									: 'border-neutral-500 text-neutral-600 hover:border-neutral-900 hover:text-neutral-900'
+							"
+						>
+							{{ tag }}
 						</div>
 					</div>
 				</div>
