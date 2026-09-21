@@ -79,3 +79,30 @@ image-side: left
 
 Places with known location can be entered into an interactive map based on Leaflet, which features different view layers, allows for zooming, fullscreen mode, clustering, searching and much more. PostGIS is used for creating and manipulating spatial data. Therefore, it is possible to enter location as needed as multiple points, lines, areas and shapes.
 ::
+
+::logo-list
+---
+logos:
+  - image: /assets/images/oeaw.png
+    href: https://www.oeaw.ac.at/
+  - image: /assets/images/acdh.png
+    href: https://www.oeaw.ac.at/acdh
+  - image: /assets/images/imafo.png
+    href: https://www.oeaw.ac.at/imafo/
+  - image: /assets/images/rhul.png
+    href: https://www.royalholloway.ac.uk/
+  - image: /assets/images/jgu.png
+    href: https://www.uni-mainz.de/
+  - image: /assets/images/nhm.jpg
+    href: https://www.nhm.at/
+  - image: /assets/images/lbi.jpg
+    href: https://archpro.lbg.ac.at/
+  - image: /assets/images/univie.svg
+    href: https://www.univie.ac.at/
+  - image: /assets/images/erc.png
+    href: https://erc.europa.eu/homepage
+  - image: /assets/images/fwf.png
+    href: https://www.fwf.ac.at/
+---
+OpenAtlas was and is funded by several [projects](https://openatlas.eu/projects){.text-secondary.fw-bold}, grants, institutes and departments:
+::
