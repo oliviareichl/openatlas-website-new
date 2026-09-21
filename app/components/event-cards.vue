@@ -7,7 +7,6 @@ const props = defineProps<{
 </script>
 
 <template>
-	{{ props.events }}
 	<article v-for="entry in props.events" :key="entry.id" class="py-2">
 		<p class="text-sm text-neutral-500">
 			{{ entry.date }}
@@ -29,8 +28,8 @@ const props = defineProps<{
 			</template>
 		</h3>
 
-		<p v-if="entry.title" class="font-semibold">
-			{{ entry.title }}
+		<p v-if="entry.eventTitle" class="font-semibold">
+			{{ entry.eventTitle }}
 		</p>
 
 		<ul v-if="entry.titles?.length">

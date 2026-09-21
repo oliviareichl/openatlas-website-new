@@ -6,7 +6,11 @@ const { data: events } = await useAsyncData("events", () =>
 const today = new Date().toISOString().slice(0, 10);
 const currentYear = new Date().getFullYear().toString();
 
-const upcomingEvents = computed(() => (events.value ?? []).filter((entry) => entry.date >= today));
+const upcomingEvents = computed(() =>
+	(events.value ?? [])
+		.filter((entry) => entry.date >= today)
+		.sort((a, b) => a.date.localeCompare(b.date)),
+);
 
 const eventsByYear = computed(() => {
 	const groups: Record<string, NonNullable<typeof events.value>> = {};
