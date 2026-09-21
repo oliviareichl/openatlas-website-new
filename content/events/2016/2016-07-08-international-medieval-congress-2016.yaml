@@ -1,0 +1,12 @@
+date: "2016-07-08"
+event: "International Medieval Congress 2016"
+eventLink: "https://www.imc.leeds.ac.uk/imcarchive/2016/sessions/803"
+title: "Relational Modelling of Historical Data - A Technical Perspective"
+country: "United Kingdom"
+city: "Leeds"
+institution: "University of Leeds"
+documents:
+  - label: "Paper"
+    url: "https://openatlas.eu/static/documents/2016-07-05_A_Technical_Perspective.pdf"
+  - label: "Presentation"
+    url: "https://openatlas.eu/static/documents/2016-07-05_leeds.pdf"

@@ -1,0 +1,9 @@
+date: "2024-04-25"
+event: "Seminar at University of Trnava"
+title: "OpenAtlas – A Database System for the Humanities and Beyond"
+country: "Slovakia"
+city: "Trnava"
+institution: "University of Trnava"
+documents:
+  - label: "Presentation"
+    url: "https://openatlas.eu/static/documents/2024-04-25_OpenAtlas_Trnava.pdf"

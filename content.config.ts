@@ -129,5 +129,25 @@ export default defineContentConfig({
 				link: z.string().optional(),
 			}),
 		}),
+		events: defineCollection({
+			type: "data",
+			source: "events/**/*.yaml",
+			schema: z.object({
+				date: z.string(),
+				event: z.string(),
+				eventLink: z.string().optional(),
+				eventTitle: z.string().optional(),
+				titles: z.array(z.string()).optional(),
+				country: z.string().optional(),
+				city: z.string().optional(),
+				institution: z.string().optional(),
+				documents: z.array(
+					z.object({
+						label: z.string(),
+						url: z.string(),
+					}),
+				),
+			}),
+		}),
 	},
 });
