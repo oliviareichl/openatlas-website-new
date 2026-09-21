@@ -35,7 +35,7 @@ const previousYears = computed(() => newsByYear.value.filter((year) => year.valu
 
 		<section v-if="currentYearNews.length" class="pt-8">
 			<div>
-				<article v-for="entry in currentYearNews" :key="entry.id" class="prose-events">
+				<article v-for="entry in currentYearNews" :key="entry.id">
 					<p class="text-sm text-neutral-500">
 						{{ entry.date }}
 					</p>
@@ -44,7 +44,7 @@ const previousYears = computed(() => newsByYear.value.filter((year) => year.valu
 						{{ entry.title }}
 					</h3>
 
-					<ContentRenderer :value="entry" class="prose" />
+					<ContentRenderer :value="entry" class="prose text-sm" />
 				</article>
 			</div>
 		</section>
@@ -67,7 +67,7 @@ const previousYears = computed(() => newsByYear.value.filter((year) => year.valu
 							{{ entry.title }}
 						</h3>
 
-						<ContentRenderer :value="entry" class="prose" />
+						<ContentRenderer :value="entry" class="text-sm" />
 					</article>
 				</div>
 			</template>

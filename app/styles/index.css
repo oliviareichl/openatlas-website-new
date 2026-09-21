@@ -109,6 +109,10 @@
 	.prose-publications :where(li) {
 		@apply !mb-5;
 	}
+
+	.prose ul {
+		@apply !list-none !ps-0 !my-0;
+	}
 }
 
 @layer base {
@@ -148,4 +152,20 @@
 
 @utility container {
 	@apply mx-auto w-full max-w-[1320px] px-8;
+}
+
+/* Override Nuxt UI prose list styles */
+
+ul {
+	padding: 0;
+}
+
+ul.list-disc {
+	margin-block: 0.5rem !important;
+	list-style-type: disc !important;
+	padding-inline-start: 1.5rem !important;
+}
+
+p {
+	padding: 0.5rem;
 }

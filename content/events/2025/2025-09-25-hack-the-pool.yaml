@@ -1,8 +1,12 @@
-date: "2025-09-25"
-event: "Hack the Pool"
-eventLink: "https://info.kulturpool.at/hack-the-pool/"
-eventTitle: "ThanaPool -> [code](https://github.com/BernhardKoschicek/thanapool)"
-country: "Austria"
-city: "Vienna"
-institution: "BMWKMS"
-documents: []
+city: Vienna
+country: Austria
+date: '2025-09-25'
+event: Hack the Pool
+eventLink: https://info.kulturpool.at/hack-the-pool/
+eventTitle: ThanaPool
+institution: BMWKMS
+documents:
+  - label: Code
+    url: https://github.com/BernhardKoschicek/thanapool
+titles:
+  - ''

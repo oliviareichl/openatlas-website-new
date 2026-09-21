@@ -1,8 +1,10 @@
-date: "2020-11-06"
-event: "25th CHNT-Conference"
-eventLink: "https://archiv.chnt.at/abstract-2020/"
-eventTitle: "Winning Best App Award for [THANADOS](https://thanados.net/)"
-country: "Austria"
-city: "Vienna"
-institution: "Wien Museum and Stadtarchäologie Wien"
-documents: []
+city: Vienna
+country: Austria
+date: '2020-11-06'
+event: 25th CHNT-Conference
+eventLink: https://archiv.chnt.at/abstract-2020/
+eventTitle: Winning Best App Award for THANADOS
+institution: Wien Museum and Stadtarchäologie Wien
+documents:
+  - label: THANADOS-Website
+    url: https://thanados.net/

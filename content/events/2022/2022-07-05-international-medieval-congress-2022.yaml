@@ -1,12 +1,12 @@
-date: "2022-07-05"
-event: "International Medieval Congress 2022"
-eventLink: "https://www.imc.leeds.ac.uk/imc-2022"
-eventTitle: "OpenAtlas - Open Software for Overcoming Borders between Disciplines"
-country: "United Kingdom"
-city: "Leeds"
-institution: "University of Leeds"
+city: Leeds
+country: United Kingdom
+date: '2022-07-05'
 documents:
-  - label: "Presentation"
-    url: "https://openatlas.eu/static/documents/2022-07-05_leeds_openatlas.pdf"
-  - label: "YouTube"
-    url: "https://www.youtube.com/watch?v=M3hJCYrS_e8&ab_channel=ACDH-CH"
+  - label: Presentation
+    url: https://openatlas.eu/static/documents/2022-07-05_leeds_openatlas.pdf
+  - label: YouTube
+    url: https://www.youtube.com/watch?v=M3hJCYrS_e8&ab_channel=ACDH-CH
+event: International Medieval Congress 2022
+eventLink: https://www.imc.leeds.ac.uk/imc-2022
+eventTitle: OpenAtlas - Open Software for Overcoming Borders between Disciplines
+institution: University of Leeds

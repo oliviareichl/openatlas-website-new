@@ -27,36 +27,37 @@ const props = defineProps<{
 				{{ entry.event }}
 			</template>
 		</h3>
+		<div class="text-sm">
+			<p v-if="entry.eventTitle" class="font-semibold">
+				{{ entry.eventTitle }}
+			</p>
 
-		<p v-if="entry.eventTitle" class="font-semibold">
-			{{ entry.eventTitle }}
-		</p>
+			<ul v-if="entry.titles?.length">
+				<li v-for="title in entry.titles" :key="title">
+					{{ title }}
+				</li>
+			</ul>
 
-		<ul v-if="entry.titles?.length">
-			<li v-for="title in entry.titles" :key="title">
-				{{ title }}
-			</li>
-		</ul>
+			<p v-if="entry.country || entry.city || entry.institution">
+				<span v-if="entry.country">{{ entry.country }}</span>
+				<span v-if="entry.city">, {{ entry.city }}</span>
+				<span v-if="entry.institution">, {{ entry.institution }}</span>
+			</p>
 
-		<p v-if="entry.country || entry.city || entry.institution">
-			<span v-if="entry.country">{{ entry.country }}</span>
-			<span v-if="entry.city">, {{ entry.city }}</span>
-			<span v-if="entry.institution">, {{ entry.institution }}</span>
-		</p>
+			<div v-if="entry.documents?.length" class="flex flex-row gap-1">
+				<span>Documents: </span>
 
-		<div v-if="entry.documents?.length" class="flex flex-row gap-1">
-			<span>Documents: </span>
-
-			<span v-for="(document, index) in entry.documents" :key="document.url">
-				<NuxtLink
-					:href="document.url"
-					target="_blank"
-					rel="noopener noreferrer"
-					class="text-primary border-b border-transparent hover:border-primary font-medium rounded-xs outline-primary/25 focus-visible:outline-3 focus-visible:has-[>code]:outline-0 [&>code]:border-dashed [&>code]:outline-primary/25 focus-visible:[&>code]:outline-3 hover:[&>code]:border-primary hover:[&>code]:text-primary focus-visible:[&>code]:border-primary focus-visible:[&>code]:text-primary transition-colors [&>code]:transition-colors"
-				>
-					{{ document.label }}{{ index === entry.documents.length - 1 ? "" : "," }}
-				</NuxtLink>
-			</span>
+				<span v-for="(document, index) in entry.documents" :key="document.url">
+					<NuxtLink
+						:href="document.url"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="text-primary border-b border-transparent hover:border-primary font-medium rounded-xs outline-primary/25 focus-visible:outline-3 focus-visible:has-[>code]:outline-0 [&>code]:border-dashed [&>code]:outline-primary/25 focus-visible:[&>code]:outline-3 hover:[&>code]:border-primary hover:[&>code]:text-primary focus-visible:[&>code]:border-primary focus-visible:[&>code]:text-primary transition-colors [&>code]:transition-colors"
+					>
+						{{ document.label }}{{ index === entry.documents.length - 1 ? "" : "," }}
+					</NuxtLink>
+				</span>
+			</div>
 		</div>
 	</article>
 </template>

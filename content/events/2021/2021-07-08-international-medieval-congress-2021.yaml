@@ -1,7 +1,7 @@
-date: "2021-07-08"
-event: "International Medieval Congress 2021"
-eventLink: "https://www.imc.leeds.ac.uk/imc-2021/"
+date: '2021-07-08'
+documents:
+  - label: 'Documents: [Presentation'
+event: International Medieval Congress 2021
+eventLink: https://www.imc.leeds.ac.uk/imc-2021/
 titles:
-  - "United Kingdom, Leeds, University of Leeds"
-  - "Documents: [Presentation](https://openatlas.eu/static/documents/2021-07-08_leeds_round_table.pdf)"
-documents: []
+  - United Kingdom, Leeds, University of Leeds

@@ -35,9 +35,8 @@ const props = defineProps<{
 						{{ props.member.email }}
 					</a>
 				</div>
-				<p v-if="props.member.bio" class="text-gray-700 mb-4 text-pretty">
-					{{ props.member.bio }}
-				</p>
+
+				<ContentRenderer :value="props.member" />
 			</div>
 		</div>
 	</section>
