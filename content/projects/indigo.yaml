@@ -1,0 +1,21 @@
+title: Indigo
+credit: CC-BY-SA 4.0, Geert Verhoeven
+description: 'The INventory and DIsseminate Graffiti along the dOnaukanal project aims to build the basis to systematically document, monitor, disseminate, and analyse 7 km of graffiti along Vienna’s Danube Canal in the next decade. '
+domainTags:
+  - cultural-heritage
+image: /assets/images/projects/indigo.jpeg
+logos:
+  - imageSource: /assets/images/lbi.jpg
+  - imageSource: /assets/images/TU_Wien.png
+  - imageSource: /assets/images/oeaw.png
+  - imageSource: /assets/images/acdh.png
+  - imageSource: /assets/images/vienna.png
+  - imageSource: /assets/images/spraycity2.png
+  - imageSource: /assets/images/gifle.jpg
+  - imageSource: /assets/images/vrvis.png
+pi: 'Geert Verhoeven, Norbert Pfeifer '
+statusTags:
+  - concluded
+  - cooperation
+yearEnd: '2023'
+yearStart: '2021'

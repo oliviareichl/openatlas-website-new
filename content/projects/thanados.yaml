@@ -1,0 +1,20 @@
+title: THANADOS
+credit: CC-BY-SA 4.0, Jan Belik
+description: 'The Anthropological and Archaeological Database of Sepultures project has the aim to create an online repository of all sepultures in nowadays Austria, dating to the Early Middle Ages (ca. 600-1100). It combines the three disciplines archaeology, anthropology and digital humanities. '
+domainTags:
+  - archaeology
+  - anthropology
+image: /assets/images/thanados.png
+logos:
+  - imageSource: /assets/images/oeaw.png
+  - imageSource: /assets/images/oeai.png
+  - imageSource: /assets/images/acdh.png
+  - imageSource: /assets/images/nhm.jpg
+pi: 'Stefan Eichert, Nina Richards '
+presentationSite: https://thanados.net/
+statusTags:
+  - concluded
+  - cooperation
+  - presentation-site
+yearEnd: '2021'
+yearStart: '2019'

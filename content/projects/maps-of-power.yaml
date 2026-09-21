@@ -1,0 +1,19 @@
+title: Maps Of Power
+credit: CC-BY-SA 4.0, Jan Belik
+description: 'The Maps of Power project is a research initiative that serves the methodological and interdisciplinary networking of scholars from the field of Historical Geography. It focuses on Historical Ecology, Sacred Topography and Cultural Heritage and sees itself as a scholarly platform that implements its own projects based on OpenAtlas as well as networks in an interdisciplinary fashion through joint projects. '
+domainTags:
+  - history
+  - prosopography
+image: /assets/images/mop.jpg
+logos:
+  - imageSource: /assets/images/oeaw.png
+  - imageSource: /assets/images/imafo.png
+  - imageSource: /assets/images/fwf.png
+  - imageSource: /assets/images/byzantine-research.jpg
+  - imageSource: /assets/images/tib.png
+  - imageSource: /assets/images/uai.jpg
+pi: 'Mihailo St. Popović '
+statusTags:
+  - ongoing
+yearEnd: ongoing
+yearStart: '2019'

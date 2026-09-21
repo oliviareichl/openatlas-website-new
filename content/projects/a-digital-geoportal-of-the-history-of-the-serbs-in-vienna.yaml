@@ -1,0 +1,23 @@
+title: A Digital Geoportal Of The History Of The Serbs In Vienna (1741-1918)
+credit: CC-BY-SA 4.0, Jan Belik
+description: 'The A Digital Geoportal of the History of the Serbs in Vienna (1741-1918) project used biographical data on Orthodox Serbs living in Vienna between 1741 and 1918 in order to illustrate how Orthodox people began to migrate into the Habsburg Empire, how Orthodox merchants settled in Vienna and how they were integrated into Viennese society of that time. '
+domainTags:
+  - history
+  - prosopography
+image: /assets/images/projects/geoportal.png
+logos:
+  - imageSource: /assets/images/wien-kultur.jpg
+  - imageSource: /assets/images/oeaw.png
+  - imageSource: /assets/images/imafo.png
+  - imageSource: /assets/images/byzantine-research.jpg
+  - imageSource: /assets/images/ait.jpg
+  - imageSource: /assets/images/bcm.png
+  - imageSource: /assets/images/nls.jpg
+  - imageSource: /assets/images/biblioteka-matice-srpske.png
+pi: 'Mihailo Popović '
+presentationSite: https://geoportal.orthodoxes-europa.at/
+statusTags:
+  - concluded
+  - presentation-site
+yearEnd: '2019'
+yearStart: '2018'
