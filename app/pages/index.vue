@@ -17,19 +17,6 @@ const { data: content } = await useAsyncData(
 
 <template>
 	<MainContent class="grid content-start py-8">
-		<template v-if="content != null && contentPath === '/'">
-			<div class="container">
-				<HeroSection
-					v-if="content.hero"
-					:title="content.hero.title"
-					:subtitle="content.hero.subtitle ?? ''"
-					:button-links="content.hero.buttonLinks ?? []"
-					:news-date="content.hero.newsDate"
-					:current-version="content.hero.currentVersion"
-					:images="content.hero.images ?? []"
-				/>
-			</div>
-		</template>
 		<template v-if="content != null">
 			<div class="container">
 				<ContentRenderer v-if="content.body" :value="content.body" />

@@ -20,15 +20,58 @@ hero:
       alt: Feature Bar
 ---
 
-## What is OpenAtlas?
+::hero-section
+---
+images:
+  - src: /assets/images/hero_image.jpg
+  - src: /assets/images/feature_bar.svg
+currentVersion: 9.3.0
+newsDate: '2026-05-27'
+---
+# Manage. Visualize. Present.
 
-OpenAtlas is an open source database software developed especially to acquire, edit and manage research data from various fields of humanities like history, archaeology and cultural heritage as well as related scientific data (e.g. radiocarbon dating, stable isotopes and anthropological information). It provides a user interface that can be accessed via any common web-browser and allows the respective researchers to work with their data via customized forms and categories to record complex relations as simple as possible.
+The OpenAtlas Project provides open-source software for various fields of humanities research, including **history**, **archaeology** and **cultural heritage**.
 
-The software automatically maps the information to the international standard of the [CIDOC CRM](https://cidoc-crm.org/) and takes care of today's requirements regarding data standards, data management and aims for [FAIR](https://force11.org/info/the-fair-data-principles/) principles against the background of current standards in Digital Humanities.
+Our tools are developed to support researchers and projects with different needs, approaches, and research questions.
 
-## How to use OpenAtlas
+Explore our software below and discover the possibilities for your research project.
+::
 
-OpenAtlas is not a stand-alone application but meant to be installed on a Linux web server. The code is open source (GPL2 licence) and freely available on [GitHub](https://github.com/craws/OpenAtlas). Some experience about server administration is required, for more information please take a look at the [installation notes](https://github.com/craws/OpenAtlas/blob/main/install.md#installation-notes).
+::software-feature
+---
+logo: /assets/images/oad-logo-white.svg
+image: /assets/pexels-snapsbyclark-27272422.jpg
+buttonLinks:
+  - title: LEARN MORE
+    link: /openatlas
+  - title: LIVE DEMO
+    link: https://demo.openatlas.eu/
+  - title: MANUAL
+    link: https://manual.openatlas.eu/
+---
+## Manage your Research Data
+
+OpenAtlas is an open source database software developed especially to **acquire**, **edit** and **manage** research data. The software uses the international [CIDOC CRM](https://cidoc-crm.org/) as its data model, supporting current standards for data management and FAIR principles in the Digital Humanities.
+::
+
+::software-feature
+---
+logo: /assets/images/discovery-white.png
+image: /assets/pexels-steve-33978450.jpg
+buttonLinks:
+  - title: LEARN MORE
+    link: /openatlas-discovery
+  - title: LIVE DEMO
+    link: https://discovery-demo.openatlas.eu/
+reverse: true
+---
+## Visualize your Research Data
+
+OpenAtlas Discovery is a presentation site template that is designed to make your research data **accessible**, **visual** and **configurable**.   
+It enables data managed in OpenAtlas to be presented through various visualizations and tailored to the needs of individual projects — without requiring technical expertise.
+::
+
+## 
 
 ::text-section
 ---
@@ -46,7 +89,7 @@ imageSide: right
 ---
 ## Interested in a cooperation?
 
-Although OpenAtlas is freely available on [GitHub](https://github.com/craws/OpenAtlas), not every project has the internal resources to cover all the aspects needed for successfully using the complex software (e.g. setting up a web server and OpenAtlas itself, updates and backups, development of new features, etc.). It is therefore possible, to cooperate with the OpenAtlas team via the [ACDH](https://www.oeaw.ac.at/acdh), an institute of the [Austrian Academy of Sciences](https://www.oeaw.ac.at/), if budget is available. For current and former cooperations see: [projects](https://openatlas.eu/projects).
+Although our software is freely available on [GitHub](https://github.com/craws/OpenAtlas), not every project has the internal resources to cover all the aspects needed for successfully using the complex software (e.g. setting up a web server and OpenAtlas itself, updates and backups, development of new features, etc.). It is therefore possible, to cooperate with the OpenAtlas team via the [ACDH](https://www.oeaw.ac.at/acdh), an institute of the [Austrian Academy of Sciences](https://www.oeaw.ac.at/), if budget is available. For current and former cooperations see: [projects](https://openatlas.eu/projects).
 ::
 
 ::text-section

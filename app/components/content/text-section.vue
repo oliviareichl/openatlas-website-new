@@ -35,7 +35,7 @@ const props = defineProps<{
 				<slot />
 
 				<div v-if="props.buttons && props.buttons.length > 0">
-					<div class="flex flex-row gap-4">
+					<div class="flex flex-row gap-4 pt-4">
 						<LazyUButton
 							v-for="button in props.buttons"
 							:key="button.title"

@@ -22,9 +22,9 @@ const links = computed(() => {
 			<NuxtLink :href="links.about.href">
 				<NuxtImg
 					alt=""
-					class="block object-contain w-50"
+					class="block object-contain"
 					preload
-					src="/assets/images/oad-logo.png"
+					src="/assets/images/logo-without-text.png"
 				/>
 			</NuxtLink>
 			<nav :aria-label="t('AppHeader.navigation-main')">

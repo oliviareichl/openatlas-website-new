@@ -22,30 +22,6 @@ export default defineContentConfig({
 			},
 			schema: z.object({
 				title: z.string(),
-				hero: z
-					.object({
-						title: z.string(),
-						subtitle: z.string().optional(),
-						buttonLinks: z
-							.array(
-								z.object({
-									title: z.string(),
-									link: z.string(),
-								}),
-							)
-							.optional(),
-						newsDate: z.string(),
-						currentVersion: z.string(),
-						images: z
-							.array(
-								z.object({
-									src: z.string(),
-									alt: z.string().optional(),
-								}),
-							)
-							.optional(),
-					})
-					.optional(),
 			}),
 		}),
 		team: defineCollection({
