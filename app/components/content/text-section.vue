@@ -16,7 +16,7 @@ const props = defineProps<{
 <template>
 	<section
 		:class="[
-			variant === 'dark' && 'relative left-1/2 -translate-x-1/2 w-screen bg-black text-white',
+			variant === 'dark' && 'relative left-1/2 -translate-x-1/2 w-screen bg-black/90 text-white',
 		]"
 	>
 		<div

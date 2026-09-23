@@ -52,7 +52,7 @@ const demoLinks = computed(() => {
 </script>
 
 <template>
-	<footer class="bg-black text-white font-heading">
+	<footer class="bg-black/90 text-white font-heading">
 		<div class="container py-8 w-full">
 			<nav :aria-label="t('AppFooter.navigation-secondary')">
 				<div class="grid grid-cols-[auto_auto_auto_1fr] gap-40 max-w-full">

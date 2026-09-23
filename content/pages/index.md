@@ -39,8 +39,6 @@ Explore our software below and discover the possibilities for your research proj
 
 ::software-feature
 ---
-logo: /assets/images/oad-logo-white.svg
-image: /assets/pexels-snapsbyclark-27272422.jpg
 buttonLinks:
   - title: LEARN MORE
     link: /openatlas
@@ -48,6 +46,8 @@ buttonLinks:
     link: https://demo.openatlas.eu/
   - title: MANUAL
     link: https://manual.openatlas.eu/
+image: /assets/pexels-snapsbyclark-27272422.jpg
+logo: /assets/images/oad-logo.svg
 ---
 ## Manage your Research Data
 
@@ -56,18 +56,19 @@ OpenAtlas is an open source database software developed especially to **acquire*
 
 ::software-feature
 ---
-logo: /assets/images/discovery-white.png
-image: /assets/pexels-steve-33978450.jpg
 buttonLinks:
   - title: LEARN MORE
     link: /openatlas-discovery
   - title: LIVE DEMO
     link: https://discovery-demo.openatlas.eu/
+image: /map-movements2.png
+logo: /assets/images/logo-with-text-light.svg
 reverse: true
 ---
 ## Visualize your Research Data
 
-OpenAtlas Discovery is a presentation site template that is designed to make your research data **accessible**, **visual** and **configurable**.   
+OpenAtlas Discovery is a presentation site template that is designed to make your research data **accessible**, **visual** and **configurable**.
+
 It enables data managed in OpenAtlas to be presented through various visualizations and tailored to the needs of individual projects — without requiring technical expertise.
 ::
 
@@ -75,9 +76,6 @@ It enables data managed in OpenAtlas to be presented through various visualizati
 
 ::text-section
 ---
-shadow: false
-image: /assets/images/cooperation.png
-variant: dark
 buttons:
   - title: Contact Us
     link: mailto:openatlas@oeaw.ac.at
@@ -85,42 +83,14 @@ buttons:
   - title: More Information
     link: /work-with-us
     outline: true
+shadow: false
+image: /assets/images/cooperation.png
 imageSide: right
+variant: dark
 ---
 ## Interested in a cooperation?
 
 Although our software is freely available on [GitHub](https://github.com/craws/OpenAtlas), not every project has the internal resources to cover all the aspects needed for successfully using the complex software (e.g. setting up a web server and OpenAtlas itself, updates and backups, development of new features, etc.). It is therefore possible, to cooperate with the OpenAtlas team via the [ACDH](https://www.oeaw.ac.at/acdh), an institute of the [Austrian Academy of Sciences](https://www.oeaw.ac.at/), if budget is available. For current and former cooperations see: [projects](https://openatlas.eu/projects).
-::
-
-::text-section
----
-shadow: true
-image: /assets/images/openatlas-schema.png
-variant: light
-image-side: right
----
-## Model
-
-The data [model](https://demo.openatlas.eu/overview/model) specifies the structure in which the information is stored within the database. The use of an ontology, for example, allows the data to be combined more easily with information from other projects and is consistent with the FAIR principles. The OpenAtlas Model is based on the international standard of [CIDOC CRM](https://www.cidoc-crm.org/), an ontology widely used within the field of humanities.
-
-- Types can be used to adapt for specific research topics
-- Reference Systems for Linked Open Data (LOD)
-- Mapping spatial and temporal uncertainty
-- Archaeological finds with detailed mapping
-- Data integrity check functions
-- Link checker to confirm [CIDOC CRM](https://www.cidoc-crm.org/) validity
-::
-
-::text-section
----
-shadow: true
-image: /assets/images/map.jpg
-variant: light
-image-side: left
----
-## Interactive Map
-
-Places with known location can be entered into an interactive map based on Leaflet, which features different view layers, allows for zooming, fullscreen mode, clustering, searching and much more. PostGIS is used for creating and manipulating spatial data. Therefore, it is possible to enter location as needed as multiple points, lines, areas and shapes.
 ::
 
 ::logo-list

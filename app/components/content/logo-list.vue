@@ -9,7 +9,7 @@ const props = defineProps<{
 </script>
 
 <template>
-	<div class="w-full justify-center flex text-center text-neutral-500 pt-8 pb-2">
+	<div class="w-full justify-center flex text-center text-neutral-500 pb-2">
 		<slot />
 	</div>
 	<div class="relative flex flex-row gap-6 mt-6 mb-4">

@@ -10,14 +10,10 @@ const props = defineProps<{
 
 <template>
 	<section
-		class="py-8 group relative isolate after:absolute after:top-20 after:bottom-[-0.5rem] after:-z-10 after:rounded-3xl after:bg-black/80"
-		:class="{
-			'after:left-50 after:right-[-2rem]': !reverse,
-			'after:left-[-2rem] after:right-50': reverse,
-		}"
+		class="py-16 group relative isolate before:absolute before:inset-y-0 before:left-1/2 before:w-screen before:-translate-x-1/2 before:-z-10 even:before:bg-primary/20"
 	>
 		<div
-			class="grid items-center gap-2 lg:grid-cols-2 lg:gap-15 text-white z-20"
+			class="grid items-center gap-2 lg:grid-cols-2 lg:gap-15 z-20"
 			:class="{ 'lg:[&>*:first-child]:order-2': reverse }"
 		>
 			<div
@@ -37,6 +33,7 @@ const props = defineProps<{
 					v-else-if="props.image"
 					:src="props.image"
 					:alt="props.image"
+					preload
 					class="absolute inset-0 z-50 object-cover size-full rounded-3xl bg-white"
 				/>
 			</div>
@@ -44,7 +41,7 @@ const props = defineProps<{
 			<div class="max-w-xl pt-8">
 				<NuxtImg v-if="props.logo" :src="props.logo" alt="" class="w-44" />
 
-				<div class="[&_h2]:mt-0 [&_h2]:text-4xl pt-2">
+				<div class="[&_h2]:mt-0 [&_h2]:text-4xl pt-2 [&_h2]:text-black">
 					<slot />
 				</div>
 
@@ -54,15 +51,13 @@ const props = defineProps<{
 				>
 					<div v-for="(button, index) in buttonLinks" :key="button.title">
 						<UButton
+							color="neutral"
 							class="border uppercase"
 							:variant="index % 2 === 0 ? 'outline' : 'solid'"
 							size="xl"
 							:to="button.link"
 							target="_blank"
-							:class="[
-								'font-heading text-white',
-								index % 2 === 0 ? 'border' : 'bg-white text-black',
-							]"
+							:class="[index % 2 === 0 ? 'bg-none' : '']"
 							>{{ button.title }}
 						</UButton>
 					</div>
