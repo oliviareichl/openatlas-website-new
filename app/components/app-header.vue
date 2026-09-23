@@ -5,7 +5,6 @@ const t = useTranslations();
 
 const links = computed(() => {
 	return {
-		about: { href: { path: "" }, label: t("AppHeader.links.about") },
 		cooperations: {
 			href: { path: "/cooperations" },
 			label: t("AppHeader.links.cooperations"),
@@ -64,14 +63,13 @@ const aboutItems = computed(() => [
 							<button
 								class="cursor-pointer m-0 inline-block p-0 font-heading leading-normal opacity-80 transition-opacity hover:opacity-100"
 							>
-								{{ links.about.label }}
+								About
 							</button>
 						</UDropdownMenu>
 					</li>
 
 					<li v-for="(link, key) of links" :key="key">
 						<NuxtLinkLocale
-							v-if="key !== 'about'"
 							class="font-heading opacity-80 transition-opacity hover:opacity-100 focus-visible:opacity-100 aria-[current]:opacity-100"
 							:href="link.href"
 						>

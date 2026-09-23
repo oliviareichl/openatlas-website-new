@@ -30,8 +30,7 @@ newsDate: '2026-05-27'
 ---
 # Manage. Visualize. Present.
 
-The OpenAtlas Project provides open-source software for various fields of humanities research, including **history**, **archaeology** and **cultural heritage**.
-
+The OpenAtlas Project provides open-source software for various fields of humanities research, including **history**, **archaeology** and **cultural heritage**.  
 Our tools are developed to support researchers and projects with different needs, approaches, and research questions.
 
 Explore our software below and discover the possibilities for your research project.
@@ -67,8 +66,7 @@ reverse: true
 ---
 ## Visualize your Research Data
 
-OpenAtlas Discovery is a presentation site template that is designed to make your research data **accessible**, **visual** and **configurable**.
-
+OpenAtlas Discovery is a presentation site template that is designed to make your research data **accessible**, **visual** and **configurable**.  
 It enables data managed in OpenAtlas to be presented through various visualizations and tailored to the needs of individual projects — without requiring technical expertise.
 ::
 
@@ -90,7 +88,7 @@ variant: dark
 ---
 ## Interested in a cooperation?
 
-Although our software is freely available on [GitHub](https://github.com/craws/OpenAtlas), not every project has the internal resources to cover all the aspects needed for successfully using the complex software (e.g. setting up a web server and OpenAtlas itself, updates and backups, development of new features, etc.). It is therefore possible, to cooperate with the OpenAtlas team via the [ACDH](https://www.oeaw.ac.at/acdh), an institute of the [Austrian Academy of Sciences](https://www.oeaw.ac.at/), if budget is available. For current and former cooperations see: [projects](https://openatlas.eu/projects).
+Although our software is freely available on [GitHub](https://github.com/craws/OpenAtlas), not every project has the internal resources to cover all the aspects needed for successfully using the complex software (e.g. setting up a web server and OpenAtlas itself, updates and backups, development of new features, etc.). It is therefore possible, to cooperate with the OpenAtlas team via the [ACDH](https://www.oeaw.ac.at/acdh), an institute of the [Austrian Academy of Sciences](https://www.oeaw.ac.at/), if budget is available. For our current and former cooperations [here](/cooperations).
 ::
 
 ::logo-list
