@@ -12,14 +12,14 @@ The software automatically maps the information to the international standard of
 
 OpenAtlas is not a stand-alone application but meant to be installed on a Linux web server. The code is open source (GPL2 licence) and freely available on [GitHub](https://github.com/craws/OpenAtlas). Some experience about server administration is required, for more information please take a look at the [installation notes](https://github.com/craws/OpenAtlas/blob/main/install.md#installation-notes).
 
-::text-section
+::software-feature-small
 ---
-shadow: true
 image: /assets/images/openatlas-schema.png
-image-side: right
-variant: light
+ascpectVideo: true
+reverse: true
+shadow: true
 ---
-## Model
+### Model
 
 The data [model](https://demo.openatlas.eu/overview/model) specifies the structure in which the information is stored within the database. The use of an ontology, for example, allows the data to be combined more easily with information from other projects and is consistent with the FAIR principles. The OpenAtlas Model is based on the international standard of [CIDOC CRM](https://www.cidoc-crm.org/), an ontology widely used within the field of humanities.
 
@@ -31,14 +31,8 @@ The data [model](https://demo.openatlas.eu/overview/model) specifies the structu
 - Link checker to confirm [CIDOC CRM](https://www.cidoc-crm.org/) validity
 ::
 
-::text-section
----
-shadow: true
-image: /assets/images/map.jpg
-image-side: left
-variant: light
----
-## Interactive Map
+::software-feature-small{image="/assets/images/map.jpg" ascpectVideo shadow}
+### Interactive Map
 
-Places with known location can be entered into an interactive map based on Leaflet, which features different view layers, allows for zooming, fullscreen mode, clustering, searching and much more. PostGIS is used for creating and manipulating spatial data. Therefore, it is possible to enter location as needed as multiple points, lines, areas and shapes.
+Places with known location can be entered into an interactive map based on [Leaflet](https://leafletjs.com/), which features different view layers, allows for zooming, fullscreen mode, clustering, searching and much more. PostGIS is used for creating and manipulating spatial data. Therefore, it is possible to enter location as needed as multiple points, lines, areas and shapes.
 ::

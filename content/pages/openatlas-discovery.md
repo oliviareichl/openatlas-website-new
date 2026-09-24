@@ -1,34 +1,48 @@
 ---
 title: OpenAtlas Discovery
+description: '#default'
 ---
 
-::text-section
----
-shadow: true
-image: /assets/images/openatlas-schema.png
-variant: light
-image-side: right
----
-## Model
+## What features does OpenAtlas Discovery offer?
 
-The data [model](https://demo.openatlas.eu/overview/model) specifies the structure in which the information is stored within the database. The use of an ontology, for example, allows the data to be combined more easily with information from other projects and is consistent with the FAIR principles. The OpenAtlas Model is based on the international standard of [CIDOC CRM](https://www.cidoc-crm.org/), an ontology widely used within the field of humanities.
+We aim to make it as **accessible** as possible: Through our designed frontend, your research data is presented in a way that's easily navigable for end-users, providing a guided navigation experience through your data. The presentation platform is also aimed at domain experts, making your research even more visible.
 
-- Types can be used to adapt for specific research topics
-- Reference Systems for Linked Open Data (LOD)
-- Mapping spatial and temporal uncertainty
-- Archaeological finds with detailed mapping
-- Data integrity check functions
-- Link checker to confirm [CIDOC CRM](https://www.cidoc-crm.org/) validity
+It's **visual**: OpenAtlas Discovery aims to visualize your data using a complex map and network visualization.
+
+And it's **configurable**: You can customize the page itself using the integrated **Content Management System** (in short CMS). This allows you to add your project logos, change colors, configure the map and network visualizations, create an individual team page, add new subpages, and all of this is quite user-friendly. This ease of use was very important to us in developing OpenAtlas Discovery to make sure that even non-techy researchers are not afraid of working with the cms and configuring their presentation site themselves.
+
+OpenAtlas Discovery consists of two parts: Firstly, the pages that showcase your research data provided and designed by us and secondly, the pages that are customizable using an integrated CMS, such as the page where you introduce your project team or even the landing page.
+
+## Which Visualizations are available in OpenAtlas Discovery?
+
+OpenAtlas Discovery offers three core visualization types: the **data table**, the **map**, and the **network**.
+
+::software-feature-small{shadow image="/map-movements2.png"}
+### The Map
+
+The map view has a lot of features to offer:
+
+- **Movement** can be visualized — for example, travel routes or letter exchanges — using animated arcs that represent direction. If multiple movements overlap, researchers can decide via the CMS whether these should be highlighted by thickness, helping to emphasize areas of dense activity. **Colors for specific movement** types can also be adjusted individually, allowing a visually distinctive presentation of different datasets.
+- Additionally, **icons** can be used for specific entities to highlight them and add more context and recognizability to the map. All of this can be configured easily through the CMS, without touching any code.
+- We also support **area display, both certain and uncertain.** For example, in one of our archaeological partner projects, the areas represent graves in a church cemetery. The exact location of the church is uncertain, so it’s visualized as a lighter, sketched area, indicating the possible range where the building might have stood, rather than a fixed position.
 ::
 
-::text-section
+::software-feature-small
 ---
 shadow: true
-image: /assets/images/map.jpg
-variant: light
-image-side: left
+image: /assets/images/network.png
+ascpectVideo: true
+reverse: true
 ---
-## Interactive Map
+### The Network Visualization
 
-Places with known location can be entered into an interactive map based on Leaflet, which features different view layers, allows for zooming, fullscreen mode, clustering, searching and much more. PostGIS is used for creating and manipulating spatial data. Therefore, it is possible to enter location as needed as multiple points, lines, areas and shapes.
+This view highlights connections between entities, making relationships in the dataset immediately visible. Connections are automatically highlighted, which makes navigation and exploration more intuitive for users. The view can be customized using the CMS to configure colors, decide which entity types should be displayed, and even focus on specific subsets of their data.
+::
+
+::software-feature-small{shadow image="/assets/images/data-table.png" ascpect-video}
+### The Data Table
+
+This view is especially useful to provide a clear overview and easy access to individual entries.
+
+It allows users to quickly browse, sort, and filter their research data — so it’s not only functional but also helps researchers and end-users to orient themselves before diving into more complex visualizations.
 ::
